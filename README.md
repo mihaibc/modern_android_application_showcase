@@ -12,6 +12,7 @@ This is a sample project that presents a modern approach to Android application 
         * [LiveData](https://developer.android.com/topic/libraries/architecture/livedata)
         * [Lifecycle](https://developer.android.com/topic/libraries/architecture/lifecycle)
         * [ViewModel](https://developer.android.com/topic/libraries/architecture/viewmodel) 
+        * [Compose](https://developer.android.com/jetpack/compose)
         * [Room](https://developer.android.com/training/data-storage/room) 
     *   [Glide](https://github.com/bumptech/glide) - image loading library 
 
@@ -25,10 +26,4 @@ This is a sample project that presents a modern approach to Android application 
 
 ## Getting started
   * Checkout the project
-  * Add gradle.properties file with the following content:
-
-            org.gradle.jvmargs=-Xmx2048m -Dfile.encoding=UTF-8
-            android.useAndroidX=true
-            kotlin.code.style=official
-            api_key ="YOUR_API_KEY"
   * Have fun!
