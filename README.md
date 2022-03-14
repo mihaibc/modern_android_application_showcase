@@ -1,4 +1,4 @@
-# Android application showcase: The Movies Corner
+# Android application showcase: The Movies Corner (UPDATE IN PROGRESS)
 
 This is a sample project that presents a modern approach to Android application development using Kotlin and latest tech-stack by using the capabilities of [The Movie Db API](https://www.themoviedb.org/documentation/api)
 
