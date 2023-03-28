@@ -15,3 +15,9 @@ dependencyResolutionManagement {
 rootProject.name = "TheMoviesCorner"
 include(":app")
 
+include(":ui")
+include(":domain")
+include(":data")
+include(":core")
+include(":core:util")
+include(":core:common")
