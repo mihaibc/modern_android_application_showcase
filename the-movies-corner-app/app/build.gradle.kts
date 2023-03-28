@@ -59,7 +59,7 @@ android {
     composeOptions {
         kotlinCompilerExtensionVersion = libs.versions.androidxComposeCompiler.get()
     }
-    namespace = "com.bacutech.news247"
+    namespace = "com.bacutech.themoviescorner"
 
     tasks.withType<org.jetbrains.kotlin.gradle.tasks.KotlinCompile>().configureEach {
         kotlinOptions {
