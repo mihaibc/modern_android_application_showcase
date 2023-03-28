@@ -1,6 +1,9 @@
-# Android application showcase: The Movies Corner (UPDATE IN PROGRESS)
+# Modern android development showcase 
+## The Movies Corner App
 
-This is a sample project that presents a modern approach to Android application development using Kotlin and latest tech-stack by using the capabilities of [The Movie Db API](https://www.themoviedb.org/documentation/api)
+This is a sample project that presents a modern approach to Android application development using Kotlin and latest tech-stack by using the capabilities of [The Movie Db API](https://www.themoviedb.org/documentation/api) 
+
+This is a work in progress so feel free to create pull requests if you want to contribute. 
 
 ## Teck-stack
  * Tech-stack
@@ -14,7 +17,7 @@ This is a sample project that presents a modern approach to Android application 
         * [ViewModel](https://developer.android.com/topic/libraries/architecture/viewmodel) 
         * [Compose](https://developer.android.com/jetpack/compose)
         * [Room](https://developer.android.com/training/data-storage/room) 
-    *   [Glide](https://github.com/bumptech/glide) - image loading library 
+    *   [Coil Compose](https://coil-kt.github.io/coil/compose/) - image loading library 
 
 * Architecture
     * [MVVM](https://developer.android.com/jetpack/guide)
