@@ -1,4 +1,4 @@
-package com.bacusoft.themoviescorner
+package com.bacutech.themoviescorner
 
 import org.junit.Test
 

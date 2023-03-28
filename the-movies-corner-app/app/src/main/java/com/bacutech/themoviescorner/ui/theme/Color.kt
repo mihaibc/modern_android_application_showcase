@@ -1,4 +1,4 @@
-package com.bacusoft.themoviescorner.ui.theme
+package com.bacutech.themoviescorner.ui.theme
 
 import androidx.compose.ui.graphics.Color
 
