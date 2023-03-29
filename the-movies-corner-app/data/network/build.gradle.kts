@@ -4,10 +4,9 @@ plugins {
 }
 
 android {
-    namespace = "com.bacutech.data"
+    namespace = "com.bacutech.themoviescorner.network"
     compileSdk = 33
 }
 
 dependencies {
-
 }
