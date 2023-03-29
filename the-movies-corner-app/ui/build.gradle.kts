@@ -4,7 +4,7 @@ plugins {
 }
 
 android {
-    namespace = "com.bacutech.ui"
+    namespace = "com.bacutech.tmc.ui"
     compileSdk = 33
 
     defaultConfig {

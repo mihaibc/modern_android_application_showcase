@@ -12,7 +12,7 @@ dependencyResolutionManagement {
         mavenCentral()
     }
 }
-rootProject.name = "TheMoviesCorner"
+rootProject.name = "tmc"
 include(":app")
 
 include(":ui")

@@ -4,7 +4,7 @@ plugins {
 }
 
 android {
-    namespace = "com.bacutech.themoviescorner.network"
+    namespace = "com.bacutech.tmc.network"
     compileSdk = 33
 }
 

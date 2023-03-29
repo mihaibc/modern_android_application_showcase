@@ -4,7 +4,7 @@ plugins {
 }
 
 android {
-    namespace = "com.bacutech.core.common"
+    namespace = "com.bacutech.tmc.core.common"
     compileSdk = 33
 }
 
