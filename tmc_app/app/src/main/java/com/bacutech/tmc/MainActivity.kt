@@ -46,7 +46,9 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import coil.compose.AsyncImage
 import com.bacutech.tmc.ui.theme.TMCTheme
+import dagger.hilt.android.AndroidEntryPoint
 
+@AndroidEntryPoint
 class MainActivity : ComponentActivity() {
 
     private val moviesUrls = listOf(
@@ -81,7 +83,8 @@ fun MainView(moviesUrls: List<String>, modifier: Modifier = Modifier) {
     val state = rememberScrollState()
     LaunchedEffect(Unit) { state.animateScrollTo(100) }
     val pageCount = 5
-    val pagerState = rememberPagerState(initialPage = 1)
+    val pagerState = rememberPagerState(pageCount = {pageCount}
+    )
     Column(
         modifier = Modifier
             .fillMaxWidth()
@@ -90,8 +93,7 @@ fun MainView(moviesUrls: List<String>, modifier: Modifier = Modifier) {
         verticalArrangement = Arrangement.Top
     ) {
         Box() {
-
-            HorizontalPager(state = pagerState, pageCount = pageCount) { page ->
+            HorizontalPager(state = pagerState) { page ->
                 Box(
                 ) {
                     AsyncImage(
